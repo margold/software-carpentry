@@ -20,7 +20,7 @@ I'm not sure why they're calling it "total annual rents" in the report. It looks
 As well as clear seasonality in London. Sort of.
 ![Alt text](../images/lsl-monthly-avg-london.png?raw=true "LSL Monthly Rents London")
 
-But the rent rise is **in October/November** rather than September. And it's not very dramatic - about £20 all in all.
+But the rent rise is **in October/November** rather than September. And it's **not very dramatic - about £20** all in all.
 
 ### 2. HomeLet [Rental Index](https://homelet.co.uk/homelet-rental-index/london)
 
