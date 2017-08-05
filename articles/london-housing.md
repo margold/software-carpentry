@@ -24,7 +24,7 @@ But the rent rise is **in October/November** rather than September. And it's **n
 
 ### 2. HomeLet [Rental Index](https://homelet.co.uk/homelet-rental-index/london)
 
-According to the HomeLet Index, rents rise sometime between June and September. Or rents in more expensive properties do - their sample contains more expensive apartments.
+According to the HomeLet Index, rents rise sometime between June and September. Or rents in more expensive properties do - their sample contains more expensive apartments. But the difference here is the same, about £20.
 
 ![Alt text](../images/homelet-index-monthly-london.png?raw=true "HomeLet Monthly Rents London")
 
