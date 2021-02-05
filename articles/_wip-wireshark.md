@@ -1,0 +1,5 @@
+- Get wireshark: `brew cask install wireshark`
+- Before we move on to figuring out how to analyze your particular case, make sure you have no trouble going through an analysis that should definitely work by [following the walkthrough on wireshark wiki](https://wiki.wireshark.org/SSL#Complete_SSL_decryption_walk_through) (it comes with a capture and key files)
+- Create capture file: `tcpdump -i any -s 0 port 4444 -w localhost.pcap`. I read a recommendation that you always should capture both sides of the exchange, so if you're using filters (eg. `tcpdump -i any -s 0 'ip src <some.ip.address> and tcp dst port 4444'`) and wireshark doesn't display your settings correctly, try capturing more and if you need to filter, filter in wireshark.
+- Open the capture file in wireshark and confirm you see something similar to the walkthrough. If all you see are TCP entries (no HTTP or SSL), and your traffic is on a non-standard port, add that port to HTTP and SSL settings. 
+- Look at the handshake pattern: rsa-only, or DH.
